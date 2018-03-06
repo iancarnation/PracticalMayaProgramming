@@ -1,0 +1,300 @@
+  front.creator
+  front.creationDate
+  front.containerType
+  front.boundingBox
+  front.boundingBoxMin
+  front.boundingBoxMinX
+  front.boundingBoxMinY
+  front.boundingBoxMinZ
+  front.boundingBoxMax
+  front.boundingBoxMaxX
+  front.boundingBoxMaxY
+  front.boundingBoxMaxZ
+  front.boundingBoxSize
+  front.boundingBoxSizeX
+  front.boundingBoxSizeY
+  front.boundingBoxSizeZ
+  front.center
+  front.boundingBoxCenterX
+  front.boundingBoxCenterY
+  front.boundingBoxCenterZ
+  front.matrix
+  front.inverseMatrix
+  front.worldMatrix
+  front.worldInverseMatrix
+  front.parentMatrix
+  front.parentInverseMatrix
+  front.visibility
+  front.intermediateObject
+  front.template
+  front.ghosting
+  front.instObjGroups
+  front.instObjGroups[-1].objectGroups
+  front.instObjGroups[-1].objectGroups[-1].objectGrpCompList
+  front.instObjGroups[-1].objectGroups[-1].objectGroupId
+  front.instObjGroups[-1].objectGroups[-1].objectGrpColor
+  front.objectColorRGB
+  front.objectColorR
+  front.objectColorG
+  front.objectColorB
+  front.wireColorRGB
+  front.wireColorR
+  front.wireColorG
+  front.wireColorB
+  front.useObjectColor
+  front.objectColor
+  front.drawOverride
+  front.overrideDisplayType
+  front.overrideLevelOfDetail
+  front.overrideShading
+  front.overrideTexturing
+  front.overridePlayback
+  front.overrideEnabled
+  front.overrideVisibility
+  front.hideOnPlayback
+  front.overrideRGBColors
+  front.overrideColor
+  front.overrideColorRGB
+  front.overrideColorR
+  front.overrideColorG
+  front.overrideColorB
+  front.lodVisibility
+  front.selectionChildHighlighting
+  front.renderInfo
+  front.identification
+  front.layerRenderable
+  front.layerOverrideColor
+  front.renderLayerInfo
+  front.renderLayerInfo[-1].renderLayerId
+  front.renderLayerInfo[-1].renderLayerRenderable
+  front.renderLayerInfo[-1].renderLayerColor
+  front.ghostingControl
+  front.ghostCustomSteps
+  front.ghostPreSteps
+  front.ghostPostSteps
+  front.ghostStepSize
+  front.ghostFrames
+  front.ghostColorPreA
+  front.ghostColorPre
+  front.ghostColorPreR
+  front.ghostColorPreG
+  front.ghostColorPreB
+  front.ghostColorPostA
+  front.ghostColorPost
+  front.ghostColorPostR
+  front.ghostColorPostG
+  front.ghostColorPostB
+  front.ghostRangeStart
+  front.ghostRangeEnd
+  front.ghostDriver
+  front.hiddenInOutliner
+  front.useOutlinerColor
+  front.outlinerColor
+  front.outlinerColorR
+  front.outlinerColorG
+  front.outlinerColorB
+  front.translate
+  front.translateX
+  front.translateY
+  front.translateZ
+  front.rotate
+  front.rotateX
+  front.rotateY
+  front.rotateZ
+  front.rotateOrder
+  front.scale
+  front.scaleX
+  front.scaleY
+  front.scaleZ
+  front.shear
+  front.shearXY
+  front.shearXZ
+  front.shearYZ
+  front.rotatePivot
+  front.rotatePivotX
+  front.rotatePivotY
+  front.rotatePivotZ
+  front.rotatePivotTranslate
+  front.rotatePivotTranslateX
+  front.rotatePivotTranslateY
+  front.rotatePivotTranslateZ
+  front.scalePivot
+  front.scalePivotX
+  front.scalePivotY
+  front.scalePivotZ
+  front.scalePivotTranslate
+  front.scalePivotTranslateX
+  front.scalePivotTranslateY
+  front.scalePivotTranslateZ
+  front.rotateAxis
+  front.rotateAxisX
+  front.rotateAxisY
+  front.rotateAxisZ
+  front.transMinusRotatePivot
+  front.transMinusRotatePivotX
+  front.transMinusRotatePivotY
+  front.transMinusRotatePivotZ
+  front.minTransLimit
+  front.minTransXLimit
+  front.minTransYLimit
+  front.minTransZLimit
+  front.maxTransLimit
+  front.maxTransXLimit
+  front.maxTransYLimit
+  front.maxTransZLimit
+  front.minTransLimitEnable
+  front.minTransXLimitEnable
+  front.minTransYLimitEnable
+  front.minTransZLimitEnable
+  front.maxTransLimitEnable
+  front.maxTransXLimitEnable
+  front.maxTransYLimitEnable
+  front.maxTransZLimitEnable
+  front.minRotLimit
+  front.minRotXLimit
+  front.minRotYLimit
+  front.minRotZLimit
+  front.maxRotLimit
+  front.maxRotXLimit
+  front.maxRotYLimit
+  front.maxRotZLimit
+  front.minRotLimitEnable
+  front.minRotXLimitEnable
+  front.minRotYLimitEnable
+  front.minRotZLimitEnable
+  front.maxRotLimitEnable
+  front.maxRotXLimitEnable
+  front.maxRotYLimitEnable
+  front.maxRotZLimitEnable
+  front.minScaleLimit
+  front.minScaleXLimit
+  front.minScaleYLimit
+  front.minScaleZLimit
+  front.maxScaleLimit
+  front.maxScaleXLimit
+  front.maxScaleYLimit
+  front.maxScaleZLimit
+  front.minScaleLimitEnable
+  front.minScaleXLimitEnable
+  front.minScaleYLimitEnable
+  front.minScaleZLimitEnable
+  front.maxScaleLimitEnable
+  front.maxScaleXLimitEnable
+  front.maxScaleYLimitEnable
+  front.maxScaleZLimitEnable
+  front.geometry
+  front.xformMatrix
+  front.selectHandle
+  front.selectHandleX
+  front.selectHandleY
+  front.selectHandleZ
+  front.inheritsTransform
+  front.displayHandle
+  front.displayScalePivot
+  front.displayRotatePivot
+  front.displayLocalAxis
+  front.dynamics
+  front.showManipDefault
+  front.specifiedManipLocation
+  front.rotateQuaternion
+  front.rotateQuaternionX
+  front.rotateQuaternionY
+  front.rotateQuaternionZ
+  front.rotateQuaternionW
+  front.rotationInterpolation
+-------------------------
+Relatives:
+  frontShape
+MEL type: transform
+MRO:
+  Transform
+  DagNode
+  Entity
+  ContainerBase
+  DependNode
+  PyNode
+  ProxyUnicode
+  object
+>>> shapes = [s for s in shapes if not type='camera']
+  File "<stdin>", line 1
+    shapes = [s for s in shapes if not type='camera']
+                                           ^
+SyntaxError: invalid syntax
+>>> shapes = [s for s in shapes if not (type='camera')]
+  File "<stdin>", line 1
+    shapes = [s for s in shapes if not (type='camera')]
+                                            ^
+SyntaxError: invalid syntax
+>>> shapes = [s for s in shapes if not (type=='camera')]
+>>> print shapes
+[nt.Mesh(u'alien_8anglesShape'), nt.Camera(u'frontShape'), nt.Mesh(u'headShape')
+, nt.Mesh(u'leftShape'), nt.Camera(u'perspShape'), nt.Mesh(u'rightShape'), nt.Ca
+mera(u'sideShape'), nt.Camera(u'topShape')]
+>>> shapes = [s for s in shapes if not (nodetype=='camera')]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nodetype' is not defined
+>>> shapes = [s for s in shapes if not (s.type()=='camera')]
+>>> print shapes
+[nt.Mesh(u'alien_8anglesShape'), nt.Mesh(u'headShape'), nt.Mesh(u'leftShape'), n
+t.Mesh(u'rightShape')]
+>>> shapes = skeletonutils.uniqueroots(shapes)
+>>> print shapes
+[nt.Mesh(u'alien_8anglesShape'), nt.Mesh(u'headShape'), nt.Mesh(u'leftShape'), n
+t.Mesh(u'rightShape')]
+>>>
+>>> print pmc.ls(type='mesh')
+[nt.Mesh(u'alien_8anglesShape'), nt.Mesh(u'headShape'), nt.Mesh(u'leftShape'), n
+t.Mesh(u'rightShape')]
+>>> shapes[0].getParent()
+nt.Transform(u'alien_8angles')
+>>> print pmc.ls(type='shape')
+[nt.Mesh(u'alien_8anglesShape'), nt.Camera(u'frontShape'), nt.Mesh(u'headShape')
+, nt.Mesh(u'leftShape'), nt.Camera(u'perspShape'), nt.Mesh(u'rightShape'), nt.Ca
+mera(u'sideShape'), nt.Camera(u'topShape')]
+>>> meshes = pmc.ls(type='mesh')
+>>> print meshes
+[nt.Mesh(u'alien_8anglesShape'), nt.Mesh(u'headShape'), nt.Mesh(u'leftShape'), n
+t.Mesh(u'rightShape')]
+>>> meshTranses = [t for t.getTransform() in meshes]
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> meshTranses = [t.getTransform() for t in meshes]
+>>> print meshTranses
+[None, None, None, None]
+>>> meshes[0].getTransform()
+>>> print meshes[0].getTransform()
+None
+>>> print meshes[0].getParent()
+alien_8angles
+>>> print meshes[0].getParent().type
+<bound method Transform.nodeType of nt.Transform(u'alien_8angles')>
+>>> meshTranses = [t.getParent() for t in meshes]
+>>> print meshTranses
+[nt.Transform(u'alien_8angles'), nt.Transform(u'head'), nt.Transform(u'left'), n
+t.Transform(u'right')]
+>>> print meshTranses[1].getParent()
+alien_8angles
+>>> print meshTranses[0].getParent()
+None
+>>> root = skeletonutils.uniqueroots(meshTranses)
+>>> print root
+[nt.Transform(u'alien_8angles')]
+>>> root.setRotation([0.0,180.0,0.0],space='world')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'setRotation'
+>>> root = root[0]
+>>> root.setRotation([0.0,180.0,0.0],space='world')
+>>> filename = "C:\Users\Ian\Desktop\diditwork.fbx"
+>>> print filename
+C:\Users\Ian\Desktop\diditwork.fbx
+>>> pmc.mel.FBXExport(f=filename)
+Logfile: "D:\_SSD_Links\_My_Documents\maya\FBX\Logs\2016.1.2\maya2016exp.log"
+u'Success'
+>>> root.select()
+>>> pmc.makeIdentity(apply=True)
+>>> pmc.mel.FBXExport(f=filename)
+Logfile: "D:\_SSD_Links\_My_Documents\maya\FBX\Logs\2016.1.2\maya2016exp.log"
+u'Success'
+>>>

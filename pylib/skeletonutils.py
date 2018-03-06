@@ -20,11 +20,11 @@ def _convert_to_joint(node, parent, prefix, jnt_size, lcol, rcol, ccol):
     def calc_wirecolor():
         x = j.translateX.get()
         if x < 0.001:
-            return = rcol
+            return rcol
         elif x > 0.001:
-            return = lcol
+            return lcol
         else:
-            return = ccol
+            return ccol
     j.overrideColor.set(calc_wirecolor())
     return j
 
