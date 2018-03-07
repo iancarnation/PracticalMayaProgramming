@@ -1,8 +1,9 @@
-# Rotates all FBX models in a directory to Z +
-# Assumes FBX contains only one mesh hierarchy
+"""
+Rotates all FBX models in current directory to Z +
+Assumes each FBX contains only one mesh hierarchy
+"""
 
 import os
-import subprocess
 import pymel.core as pmc
 
 def run():
@@ -18,27 +19,28 @@ def run():
             files.append(filename)
 
     for fbx in files:
-        process(fbx)
+        _process(fbx)
         fbxName = os.path.basename(fbx)
         target = os.path.join(destination, fbxName)
-        export(target)
+        _export(target)
         pmc.newFile(force=True)
 
 
-def process(sourceFileName):
+def _process(sourceFileName):
     pmc.mel.FBXImport(f=sourceFileName)
-    # Get meshes in scene
-    meshes = pmc.ls(type='mesh')
-    # Get Transforms (mesh Parents)
-    transforms = [m.getParent() for m in meshes]
-    # Find Root
-    root = [t for t in transforms if t.getParent()==None][0]
-    root.setRotation([0.0,180.0,0.0], space='world')
-    root.select()
-    ## Freeze Transformations
-    pmc.makeIdentity(apply=True)
 
-def export(targetFileName):
+    meshes = pmc.ls(type='mesh')
+    
+    transforms = [m.getParent() for m in meshes]
+    
+    root = [t for t in transforms if t.getParent()==None][0]
+    
+    root.setRotation([0.0,180.0,0.0], space='world')
+    
+    root.select()
+    pmc.makeIdentity(apply=True) # Freeze Transformations
+
+def _export(targetFileName):
     """Export FBX in centimeters"""
     pmc.mel.eval('FBXResetExport')
     pmc.mel.eval('FBXExportConvertUnitString -cm')
